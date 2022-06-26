@@ -5948,19 +5948,124 @@ template {
 body {
   font-family: "Barlow", sans-serif;
 }
+body #header {
+  background-color: #000;
+  position: sticky;
+  top: 0;
+}
 body .main .section {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   height: 100vh;
   width: 100vw;
 }
 body .main .section-1 {
+  height: calc(100vh - 100px);
   background-image: url("https://www.spacex.com/static/images/backgrounds/rideshare_feature.webp");
+  background-attachment: fixed;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 12.5em;
+}
+body .main .section-1 .section-1-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .main .section-1 .section-1-text h1 {
+  line-height: 1.1;
+  font-size: 5.5rem;
+  font-weight: 900;
+  margin: 0.5em 0;
+}
+body .main .section-1 .section-1-text h3 {
+  line-height: 1;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+body .main .section-1 .section-1-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3em;
+  margin: 1em 0;
+}
+body .main .section-1 .section-1-form .form-item input,
+body .main .section-1 .section-1-form .form-item select {
+  height: 70px;
+  width: 100%;
+  padding: 0 1em;
+  background: #333;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+body .main .section-1 .section-1-form .form-item input::placeholder,
+body .main .section-1 .section-1-form .form-item select::placeholder {
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+body .main .section-1 .section-1-form .form-item select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-day-field {
+  display: none;
+}
+body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-text {
+  color: transparent;
+}
+body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-month-field,
+body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-year-field {
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 0.5em;
+}
+body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-calendar-picker-indicator {
+  transform: scale(1.5);
+  filter: invert(1);
+}
+body .main .section-1 .section-1-form .form-item-1 {
+  position: relative;
+  width: 210px;
+}
+body .main .section-1 .section-1-form .form-item-1 select {
+  background-image: url("../../img/rideshare/down-arrow-svgrepo-com.svg");
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 8px) center;
+}
+body .main .section-1 .section-1-form .form-item-2 {
+  width: 210px;
+}
+body .main .section-1 .section-1-form .form-item-3 {
+  width: 180px;
+}
+body .main .section-1 .section-1-form .form-item-4 {
+  width: 140px;
+}
+body .main .section-1 .section-1-form .form-item-4 input {
+  background: transparent;
+  margin: 0 1em;
+}
+body .main .section-1 .section-1-form .form-item-4 input::placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.795);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+body .main .section-1 .section-1-form .form-item-5 {
+  cursor: pointer;
 }
 body .main .section-2 {
-  min-height: 200px;
-  height: 35vh;
+  min-height: 350px;
+  height: 43vh;
 }
 body .main .section-2 .content-box-2 {
   height: 100%;
@@ -5971,6 +6076,9 @@ body .main .section-2 .content-box-2 {
 body .main .section-2 .content-box-2 .rideshare-stats {
   min-width: fit-content;
   width: fit-content;
+}
+body .main .section-2 .content-box-2 .rideshare-stats h2 {
+  font-weight: 600;
 }
 body .main .section-3 {
   background-image: url("https://www.spacex.com/static/images/backgrounds/rideshare_pricing.webp");

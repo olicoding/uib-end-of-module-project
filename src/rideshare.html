@@ -139,7 +139,60 @@
       </div>
 
       <main class="main">
-        <section class="section section-1"></section>
+        <section class="section section-1">
+          <div class="section-1-text">
+            <h1>Smallsat<br />Rideshare Program</h1>
+            <h3>
+              Dedicated rideshare missions as low as $1.1M*. Search flights
+              below.
+            </h3>
+          </div>
+
+          <form class="section-1-form" action="#">
+            <div class="form-item form-item-1">
+              <select name="sort" id="sort" aria-invalid="false" required>
+                <option value="SSO">ORBIT SSO</option>
+                <option value="LEO">ORBIT LEO</option>
+                <option value="POLAR">ORBIT POLAR</option>
+              </select>
+            </div>
+            <div class="form-item form-item-2">
+              <input
+                type="date"
+                name="date"
+                id="date"
+                data-date-format="MM YYYY"
+                placeholder="NO EARLYER THAN"
+                required
+              />
+            </div>
+            <div class="form-item form-item-3">
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="INPUT PAYLOAD MASS kg"
+                required
+              />
+            </div>
+            <div class="form-item form-item-4">
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="ESTIMATED PRICE"
+                required
+              />
+            </div>
+            <div class="form-item form-item-5">
+              <img
+                class="arrow-svg"
+                src="./img/rideshare/arrow-right-circle-svgrepo-com.svg"
+                alt="arrow"
+              />
+            </div>
+          </form>
+        </section>
 
         <section class="section section-2">
           <div class="content-box-2">
