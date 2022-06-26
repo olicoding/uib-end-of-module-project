@@ -6082,6 +6082,45 @@ body .main .section-2 .content-box-2 .rideshare-stats h2 {
 }
 body .main .section-3 {
   background-image: url("https://www.spacex.com/static/images/backgrounds/rideshare_pricing.webp");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body .main .section-3 .timeline {
+  padding-left: 0;
+  width: 950px;
+  height: 23px;
+  list-style: none;
+  text-align: justify;
+  margin: 100px auto;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 45%, rgb(255, 255, 255) 51%, rgba(255, 255, 255, 0) 57%, rgba(255, 255, 255, 0) 100%);
+}
+body .main .section-3 .timeline::after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+body .main .section-3 .timeline li {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  width: 13px;
+  height: 13px;
+  text-align: center;
+  line-height: 1.2;
+  border-radius: 50%;
+}
+body .main .section-3 .timeline li::before {
+  position: absolute;
+  display: inline-block;
+  content: attr(order-stage);
+  width: 300px;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 body .main .section-4 {
   background-image: url("https://www.spacex.com/static/images/backgrounds/rideshare_configurations.webp");
