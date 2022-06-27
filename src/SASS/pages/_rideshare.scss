@@ -223,11 +223,11 @@ body {
 
         .timeline {
           padding-left: 0;
-          width: 950px;
+          width: 800px;
           height: 23px;
           list-style: none;
           text-align: justify;
-          margin: 130px auto;
+          margin: 100px auto;
           background: linear-gradient(
             to bottom,
             rgba(255, 255, 255, 0) 0%,
@@ -267,6 +267,34 @@ body {
 
       &-4 {
         background-image: url("https://www.spacex.com/static/images/backgrounds/rideshare_configurations.webp");
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 4em;
+        .content-box-4 {
+          text-align: left;
+          width: 40%;
+          margin-top: 5em;
+          h2 {
+            font-weight: 700;
+            margin: 0.5em 0;
+          }
+          p {
+            margin: 0.7em 0;
+            font-size: 1.8rem;
+            font-weight: 300;
+          }
+          table tr td {
+            font-size: 1.4rem;
+          }
+          table tr td:nth-child(even) {
+            text-align: end;
+            span {
+              color: #666;
+            }
+          }
+        }
       }
 
       &-5 {
@@ -299,7 +327,36 @@ body {
 
       &-6 {
         background-image: url("https://www.spacex.com/static/images/backgrounds/f9_vehicle.webp");
-        height: 80vh;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 4em;
+        .content-box-4 {
+          text-align: left;
+          width: 40%;
+          margin-top: 5em;
+          h2 {
+            font-weight: 700;
+            margin: 0.5em 0;
+          }
+          p {
+            margin: 0.7em 0;
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.7);
+          }
+          table tr td {
+            font-size: 1.4rem;
+          }
+          table tr td:nth-child(even) {
+            text-align: end;
+            span {
+              color: #666;
+            }
+          }
+        }
       }
 
       &-7 {
