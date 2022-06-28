@@ -5949,56 +5949,55 @@ body {
   font-family: "Barlow", sans-serif;
 }
 body #header {
-  background-color: #000;
   position: sticky;
   top: 0;
 }
-body .main .section {
+body .main-rideshare .section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 100vh;
   width: 100vw;
 }
-body .main .section-1 {
+body .main-rideshare .section-1 {
   height: calc(100vh - 100px);
   background-image: url("https://www.spacex.com/static/images/backgrounds/rideshare_feature.webp");
-  background-attachment: fixed;
   background-position: bottom;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  padding-top: 12.5em;
+  padding-top: 12em;
 }
-body .main .section-1 .section-1-text {
+body .main-rideshare .section-1 .section-1-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-body .main .section-1 .section-1-text h1 {
+body .main-rideshare .section-1 .section-1-text h1 {
   line-height: 1.1;
-  font-size: 5.5rem;
+  font-size: 6.5rem;
   font-weight: 900;
   margin: 0.5em 0;
 }
-body .main .section-1 .section-1-text h3 {
+body .main-rideshare .section-1 .section-1-text h3 {
   line-height: 1;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 500;
+  letter-spacing: 0.7px;
   color: rgba(255, 255, 255, 0.8);
 }
-body .main .section-1 .section-1-form {
+body .main-rideshare .section-1 .section-1-form {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.3em;
   margin: 1em 0;
 }
-body .main .section-1 .section-1-form .form-item input,
-body .main .section-1 .section-1-form .form-item select {
-  height: 70px;
+body .main-rideshare .section-1 .section-1-form .form-item input,
+body .main-rideshare .section-1 .section-1-form .form-item select {
+  height: 55px;
   width: 100%;
   padding: 0 1em;
   background: #333;
@@ -6006,81 +6005,84 @@ body .main .section-1 .section-1-form .form-item select {
   border: none;
   outline: none;
 }
-body .main .section-1 .section-1-form .form-item input::placeholder,
-body .main .section-1 .section-1-form .form-item select::placeholder {
+body .main-rideshare .section-1 .section-1-form .form-item input::placeholder,
+body .main-rideshare .section-1 .section-1-form .form-item select::placeholder {
   color: #fff;
   font-weight: 400;
   text-align: center;
 }
-body .main .section-1 .section-1-form .form-item select {
+body .main-rideshare .section-1 .section-1-form .form-item select {
   -webkit-appearance: none;
   appearance: none;
 }
-body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-day-field {
+body .main-rideshare .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-day-field {
   display: none;
 }
-body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-text {
+body .main-rideshare .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-text {
   color: transparent;
 }
-body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-month-field,
-body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-year-field {
+body .main-rideshare .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-month-field,
+body .main-rideshare .section-1 .section-1-form .form-item input[type=date]::-webkit-datetime-edit-year-field {
   color: #fff;
   text-transform: uppercase;
   padding-left: 0.5em;
 }
-body .main .section-1 .section-1-form .form-item input[type=date]::-webkit-calendar-picker-indicator {
+body .main-rideshare .section-1 .section-1-form .form-item input[type=date]::-webkit-calendar-picker-indicator {
   transform: scale(1.5);
   filter: invert(1);
 }
-body .main .section-1 .section-1-form .form-item-1 {
+body .main-rideshare .section-1 .section-1-form .form-item-1 {
   position: relative;
   width: 210px;
 }
-body .main .section-1 .section-1-form .form-item-1 select {
+body .main-rideshare .section-1 .section-1-form .form-item-1 select {
   background-image: url("../../img/rideshare/down-arrow-svgrepo-com.svg");
   background-size: 24px;
   background-repeat: no-repeat;
   background-position: calc(100% - 8px) center;
 }
-body .main .section-1 .section-1-form .form-item-2 {
+body .main-rideshare .section-1 .section-1-form .form-item-2 {
   width: 210px;
 }
-body .main .section-1 .section-1-form .form-item-3 {
+body .main-rideshare .section-1 .section-1-form .form-item-3 {
   width: 180px;
 }
-body .main .section-1 .section-1-form .form-item-4 {
+body .main-rideshare .section-1 .section-1-form .form-item-4 {
   width: 140px;
 }
-body .main .section-1 .section-1-form .form-item-4 input {
+body .main-rideshare .section-1 .section-1-form .form-item-4 input {
   background: transparent;
   margin: 0 1em;
 }
-body .main .section-1 .section-1-form .form-item-4 input::placeholder {
+body .main-rideshare .section-1 .section-1-form .form-item-4 input::placeholder {
   font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.795);
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
-body .main .section-1 .section-1-form .form-item-5 {
+body .main-rideshare .section-1 .section-1-form .form-item-5 {
   cursor: pointer;
 }
-body .main .section-2 {
+body .main-rideshare .section-2 {
   min-height: 350px;
-  height: 43vh;
+  height: 40vh;
 }
-body .main .section-2 .content-box-2 {
+body .main-rideshare .section-2 .content-box-2 {
   height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-body .main .section-2 .content-box-2 .rideshare-stats {
+body .main-rideshare .section-2 .content-box-2 .rideshare-stats {
   min-width: fit-content;
   width: fit-content;
 }
-body .main .section-2 .content-box-2 .rideshare-stats h2 {
+body .main-rideshare .section-2 .content-box-2 .rideshare-stats h2 {
   font-weight: 600;
 }
-body .main .section-3 {
+body .main-rideshare .section-2 .content-box-2 .rideshare-stats span {
+  color: rgba(255, 255, 255, 0.9);
+}
+body .main-rideshare .section-3 {
   background-image: url("https://www.spacex.com/static/images/backgrounds/rideshare_pricing.webp");
   display: flex;
   flex-direction: column;
@@ -6088,24 +6090,26 @@ body .main .section-3 {
   align-items: center;
   padding: 4em;
 }
-body .main .section-3 .content-box-3 {
+body .main-rideshare .section-3 .content-box-3 {
   align-self: start;
   text-align: left;
-  width: 47%;
+  width: 55%;
   margin-top: 5em;
 }
-body .main .section-3 .content-box-3 h2 {
+body .main-rideshare .section-3 .content-box-3 h2 {
   font-weight: 700;
 }
-body .main .section-3 .content-box-3 p {
+body .main-rideshare .section-3 .content-box-3 p {
   margin: 0.7em 0;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 300;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.8);
 }
-body .main .section-3 .content-box-3 .marging-bottom-2 {
+body .main-rideshare .section-3 .content-box-3 .marging-bottom-2 {
   margin-bottom: 2.5em;
 }
-body .main .section-3 .content-box-3 .button-primary {
+body .main-rideshare .section-3 .content-box-3 .button-primary {
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
@@ -6115,10 +6119,10 @@ body .main .section-3 .content-box-3 .button-primary {
   text-transform: uppercase;
   transition: opacity 300ms cubic-bezier(0.694, 0, 0.335, 1), background-color 100ms cubic-bezier(0.694, 0, 0.335, 1), color 100ms cubic-bezier(0.694, 0, 0.335, 1);
 }
-body .main .section-3 .content-box-3 .button-primary:hover {
+body .main-rideshare .section-3 .content-box-3 .button-primary:hover {
   color: #000;
 }
-body .main .section-3 .content-box-3 .button-primary:before {
+body .main-rideshare .section-3 .content-box-3 .button-primary:before {
   animation: opacityFallbackOut 0.5s step-end forwards;
   backface-visibility: hidden;
   background-color: #ebebeb;
@@ -6132,34 +6136,34 @@ body .main .section-3 .content-box-3 .button-primary:before {
   transition: clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   width: 100%;
 }
-body .main .section-3 .content-box-3 .button-primary:hover:before {
+body .main-rideshare .section-3 .content-box-3 .button-primary:hover:before {
   animation: opacityFallbackIn 0s step-start forwards;
   clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
 }
-body .main .section-3 .content-box-3 .button-primary:after {
+body .main-rideshare .section-3 .content-box-3 .button-primary:after {
   background-color: #fff;
 }
-body .main .section-3 .content-box-3 .button-primary span {
+body .main-rideshare .section-3 .content-box-3 .button-primary span {
   z-index: 1;
   position: relative;
   font-size: 1.4rem;
   font-weight: 700;
 }
-body .main .section-3 .timeline {
+body .main-rideshare .section-3 .timeline {
   padding-left: 0;
   width: 800px;
   height: 23px;
   list-style: none;
   text-align: justify;
-  margin: 100px auto;
+  margin: 75px auto;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 45%, rgb(255, 255, 255) 51%, rgba(255, 255, 255, 0) 57%, rgba(255, 255, 255, 0) 100%);
 }
-body .main .section-3 .timeline::after {
+body .main-rideshare .section-3 .timeline::after {
   display: inline-block;
   content: "";
   width: 100%;
 }
-body .main .section-3 .timeline li {
+body .main-rideshare .section-3 .timeline li {
   position: relative;
   display: inline-block;
   background: #fff;
@@ -6169,7 +6173,7 @@ body .main .section-3 .timeline li {
   line-height: 1.2;
   border-radius: 50%;
 }
-body .main .section-3 .timeline li::before {
+body .main-rideshare .section-3 .timeline li::before {
   position: absolute;
   display: inline-block;
   content: attr(order-stage);
@@ -6180,38 +6184,42 @@ body .main .section-3 .timeline li::before {
   font-size: 1.4rem;
   font-weight: 600;
 }
-body .main .section-4 {
+body .main-rideshare .section-4 {
   background-image: url("https://www.spacex.com/static/images/backgrounds/rideshare_configurations.webp");
+  height: 98vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
   padding: 4em;
 }
-body .main .section-4 .content-box-4 {
+body .main-rideshare .section-4 .content-box-4 {
   text-align: left;
-  width: 40%;
-  margin-top: 5em;
+  width: 45%;
 }
-body .main .section-4 .content-box-4 h2 {
+body .main-rideshare .section-4 .content-box-4 h2 {
+  font-size: 2.5rem;
   font-weight: 700;
   margin: 0.5em 0;
+  width: 100%;
 }
-body .main .section-4 .content-box-4 p {
+body .main-rideshare .section-4 .content-box-4 p {
   margin: 0.7em 0;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 300;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.8);
 }
-body .main .section-4 .content-box-4 table tr td {
-  font-size: 1.4rem;
+body .main-rideshare .section-4 .content-box-4 table tr td {
+  font-size: 1.35rem;
 }
-body .main .section-4 .content-box-4 table tr td:nth-child(even) {
+body .main-rideshare .section-4 .content-box-4 table tr td:nth-child(even) {
   text-align: end;
 }
-body .main .section-4 .content-box-4 table tr td:nth-child(even) span {
+body .main-rideshare .section-4 .content-box-4 table tr td:nth-child(even) span {
   color: #666;
 }
-body .main .section-5 {
+body .main-rideshare .section-5 {
   height: 10vh;
   min-height: 50px;
   display: flex;
@@ -6221,17 +6229,17 @@ body .main .section-5 {
   top: -10vh;
   background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0) 100%);
 }
-body .main .section-5 .learn-more-link {
+body .main-rideshare .section-5 .learn-more-link {
   padding-top: 3em;
   margin-top: 3em;
 }
-body .main .section-5 .learn-more-link .learn-more-txt {
+body .main-rideshare .section-5 .learn-more-link .learn-more-txt {
   padding-right: 0.35em;
   font-size: 1.4rem;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
 }
-body .main .section-6 {
+body .main-rideshare .section-6 {
   background-image: url("https://www.spacex.com/static/images/backgrounds/f9_vehicle.webp");
   height: 90vh;
   display: flex;
@@ -6240,31 +6248,31 @@ body .main .section-6 {
   align-items: flex-start;
   padding: 4em;
 }
-body .main .section-6 .content-box-4 {
+body .main-rideshare .section-6 .content-box-4 {
   text-align: left;
-  width: 40%;
+  width: 55%;
   margin-top: 5em;
 }
-body .main .section-6 .content-box-4 h2 {
+body .main-rideshare .section-6 .content-box-4 h2 {
   font-weight: 700;
   margin: 0.5em 0;
 }
-body .main .section-6 .content-box-4 p {
+body .main-rideshare .section-6 .content-box-4 p {
   margin: 0.7em 0;
   font-size: 1.8rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
 }
-body .main .section-6 .content-box-4 table tr td {
+body .main-rideshare .section-6 .content-box-4 table tr td {
   font-size: 1.4rem;
 }
-body .main .section-6 .content-box-4 table tr td:nth-child(even) {
+body .main-rideshare .section-6 .content-box-4 table tr td:nth-child(even) {
   text-align: end;
 }
-body .main .section-6 .content-box-4 table tr td:nth-child(even) span {
+body .main-rideshare .section-6 .content-box-4 table tr td:nth-child(even) span {
   color: #666;
 }
-body .main .section-7 {
+body .main-rideshare .section-7 {
   display: flex;
   justify-content: center;
   align-items: end;
@@ -6272,18 +6280,19 @@ body .main .section-7 {
   box-shadow: 0 -1em 0.5em rgba(0, 0, 0, 0.5);
   background: linear-gradient(0deg, rgb(0, 0, 0) 100%, rgba(0, 0, 0, 0.6) 90%, rgba(0, 0, 0, 0.4) 80%, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0) 0%);
 }
-body .main .section-7 .content-box-7 {
+body .main-rideshare .section-7 .content-box-7 {
   padding-bottom: 5em;
   color: #fff;
 }
-body .main .section-7 .content-box-7 .line-tall {
+body .main-rideshare .section-7 .content-box-7 .line-tall {
   background-color: #fff;
 }
-body .main .section-7 .content-box-7 .section-footer-a {
-  color: rgba(255, 255, 255, 0.6);
+body .main-rideshare .section-7 .content-box-7 .section-footer-a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.3rem;
   padding-bottom: 2em;
 }
-body .main .section-7 .content-box-7 .button-primary {
+body .main-rideshare .section-7 .content-box-7 .button-primary {
   background-color: #000;
   border: 2px solid #fff;
   color: #fff;
@@ -6293,10 +6302,10 @@ body .main .section-7 .content-box-7 .button-primary {
   text-transform: uppercase;
   transition: opacity 300ms cubic-bezier(0.694, 0, 0.335, 1), background-color 100ms cubic-bezier(0.694, 0, 0.335, 1), color 100ms cubic-bezier(0.694, 0, 0.335, 1);
 }
-body .main .section-7 .content-box-7 .button-primary:hover {
+body .main-rideshare .section-7 .content-box-7 .button-primary:hover {
   color: #000;
 }
-body .main .section-7 .content-box-7 .button-primary:before {
+body .main-rideshare .section-7 .content-box-7 .button-primary:before {
   animation: opacityFallbackOut 0.5s step-end forwards;
   backface-visibility: hidden;
   background-color: #ebebeb;
@@ -6310,16 +6319,202 @@ body .main .section-7 .content-box-7 .button-primary:before {
   transition: clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   width: 100%;
 }
-body .main .section-7 .content-box-7 .button-primary:hover:before {
+body .main-rideshare .section-7 .content-box-7 .button-primary:hover:before {
   animation: opacityFallbackIn 0s step-start forwards;
   clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
 }
-body .main .section-7 .content-box-7 .button-primary:after {
+body .main-rideshare .section-7 .content-box-7 .button-primary:after {
   background-color: #fff;
 }
-body .main .section-7 .content-box-7 .button-primary span {
+body .main-rideshare .section-7 .content-box-7 .button-primary span {
   z-index: 1;
   position: relative;
+}
+
+/* ============= */
+/* MEDIA QUERIES */
+/* ============= */
+@media (max-width: 900px) {
+  body .main-rideshare .section-1 {
+    height: 100vh;
+    padding-top: 3em;
+    display: block;
+  }
+  body .main-rideshare .section-1 .section-1-text h1 {
+    font-size: 4rem;
+  }
+  body .main-rideshare .section-1 .section-1-text h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  body .main-rideshare .section-1 .section-1-form {
+    display: grid;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 0.5em;
+  }
+  body .main-rideshare .section-1 .section-1-form .form-item {
+    width: 300px;
+  }
+  body .main-rideshare .section-1 .section-1-form .form-item-3 {
+    width: 268px;
+  }
+  body .main-rideshare .section-1 .section-1-form .form-item-4 input::placeholder {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    text-shadow: none;
+  }
+  body .main-rideshare .section-1 .section-1-form .form-item-5 {
+    position: relative;
+    cursor: pointer;
+    background-color: rgba(51, 51, 51, 0.3);
+    padding: 1.8em 0;
+    width: 75%;
+    margin: 0 auto;
+  }
+  body .main-rideshare .section-1 .section-1-form .form-item-5 img {
+    display: none;
+  }
+  body .main-rideshare .section-1 .section-1-form .form-item-5::after {
+    content: "SUBMIT";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.75rem;
+    opacity: 0.5;
+    outline: 1px solid #fff;
+  }
+  body .main-rideshare .section-2 {
+    height: 94vh;
+  }
+  body .main-rideshare .section-2 .content-box-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3.5em;
+    padding: 0 4em;
+  }
+  body .main-rideshare .section-2 .content-box-2 .rideshare-stats {
+    min-width: fit-content;
+    width: fit-content;
+  }
+  body .main-rideshare .section-2 .content-box-2 .rideshare-stats h2 {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  body .main-rideshare .section-2 .content-box-2 .rideshare-stats span {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 1em 0;
+  }
+  body .main-rideshare .section-3 .content-box-3 {
+    width: 75%;
+  }
+  body .main-rideshare .section-3 .timeline {
+    width: 600px;
+    margin: 30px auto;
+  }
+  body .main-rideshare .section-3 .timeline li {
+    font-size: 1rem;
+  }
+  body .main-rideshare .section-3 .timeline li::before {
+    width: 200px;
+    font-size: 1rem;
+  }
+  body .main-rideshare .section-4 {
+    padding: 2em;
+  }
+  body .main-rideshare .section-4 .content-box-4 {
+    width: 48%;
+  }
+  body .main-rideshare .section-4 .content-box-4 p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.45;
+  }
+  body .main-rideshare .section-4 .content-box-4 table tr td {
+    font-size: 1.2rem;
+  }
+  body .main-rideshare .section-5 {
+    height: 5vh;
+    top: -5vh;
+  }
+}
+@media (max-width: 600px) {
+  body .main-rideshare .section-1 {
+    height: 100vh;
+    padding-top: 0.5em;
+  }
+  body .main-rideshare .section-1 .section-1-text h1 {
+    font-size: 2.6rem;
+  }
+  body .main-rideshare .section-1 .section-1-text h3 {
+    width: 300px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+  body .main-rideshare .section-1 .section-1-form {
+    top: 61%;
+  }
+  body .main-rideshare .section-3 .content-box-3 {
+    width: 90%;
+    margin-top: 5em;
+  }
+  body .main-rideshare .section-3 .content-box-3 .marging-bottom-2 {
+    margin-bottom: 2.5em;
+  }
+  body .main-rideshare .section-3 .timeline {
+    display: none;
+  }
+  body .main-rideshare .section-4 {
+    padding: 1.5em;
+  }
+  body .main-rideshare .section-4 .content-box-4 {
+    width: 50%;
+  }
+  body .main-rideshare .section-4 .content-box-4 p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+  body .main-rideshare .section-4 .content-box-4 table tr td {
+    font-size: 1.1rem;
+  }
+  body .main-rideshare .section-5 {
+    height: 4vh;
+    top: -4vh;
+  }
+  body .main-rideshare .section-6 .content-box-4 {
+    width: 70%;
+    margin-top: 5em;
+  }
+  body .main-rideshare .section-6 .content-box-4 h2 {
+    font-weight: 700;
+    margin: 0.5em 0;
+  }
+  body .main-rideshare .section-6 .content-box-4 p {
+    margin: 0.7em 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  body .main-rideshare .section-6 .content-box-4 table tr td {
+    font-size: 1.4rem;
+  }
+  body .main-rideshare .section-6 .content-box-4 table tr td:nth-child(even) {
+    text-align: end;
+  }
+  body .main-rideshare .section-6 .content-box-4 table tr td:nth-child(even) span {
+    color: #666;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

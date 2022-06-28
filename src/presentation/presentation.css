@@ -1,0 +1,148 @@
+:root {
+  --page-1-color: steelblue;
+  --page-2-color: tan;
+  --page-3-color: teal;
+  --page-4-color: slateblue;
+  --animate-speed: 2s;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Utilities */
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  gap: 3em;
+}
+
+.width-100 {
+  width: 100%;
+  border: 2px solid red;
+}
+
+/* Links */
+.links:link,
+.links:visited {
+  text-decoration: none;
+  color: #333;
+}
+.links:hover,
+.links:active {
+  color: #000;
+}
+
+/* Page Colors */
+#page-1 {
+  background: var(--page-1-color);
+}
+#page-2 {
+  background: var(--page-2-color);
+}
+#page-3 {
+  background: var(--page-3-color);
+}
+#page-4 {
+  background: var(--page-4-color);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 4rem;
+}
+
+.page h1 {
+  font-size: 3.7rem;
+  margin: 0;
+}
+
+.page p {
+  font-size: 1.3rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #f4f4f4;
+  color: #333;
+  text-decoration: none;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover,
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background: #fff;
+  color: #333;
+}
+
+/* Images */
+
+img {
+  display: block;
+  margin: 1em auto;
+  max-width: 800px;
+}
+
+.img-box {
+  width: 100%;
+}
+
+.img-figma {
+  width: 45%;
+}
+.img-sass {
+  width: 45%;
+}
+
+.img-section-break-1,
+.img-section-break-2 {
+  height: 17em;
+  width: fit-content;
+  transform: scale(1);
+}
+
+/* Page Animation */
+#page-1 h1 {
+  transform: translateY(-1200px);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
+
+#page-1 p {
+  transform: translateX(-1800px);
+  animation: text var(--animate-speed) forwards ease-in 1s;
+}
+
+/* Keyframes */
+@keyframes heading {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes text {
+  to {
+    transform: translateX(0);
+  }
+}
