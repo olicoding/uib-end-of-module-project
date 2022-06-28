@@ -5,80 +5,79 @@
   color: white;
   font-size: 16px;
   line-height: 22px;
-}
-h2 {
-  padding: 40px 0;
-  font-size: 40px;
-  line-height: 45px;
-  color: #ffffff;
-}
-p {
-  margin: 0;
-}
-.first-section {
-  height: 100vh;
-  width: 100%;
-  background-image: url(./img/main.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
   h2 {
-    padding-top: 80px;
+    padding: 40px 0;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 45px;
+    color: #ffffff;
   }
   p {
-    max-width: 600px;
-    margin: 0 auto;
+    margin: 0;
+  }
+  .first-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://api.starlink.com/public-files/Marketing_LandingFeatured_Mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    h2 {
+      padding-top: 80px;
+    }
+    p {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+  .main-input {
+    display: inline-block;
+    margin-top: 52vh;
+    text-transform: uppercase;
+  }
+  .service {
+    width: 425px;
+    height: 50px;
+    border-radius: 6px;
+    color: #b8b8b8;
+    background-color: rgba(245, 222, 179, 0.057);
+    padding: 0px 26px;
+    margin: 20px 10px;
+    border: 1px solid white;
+    font-size: 12px;
+  }
+  .main-button {
+    width: 186px;
+    height: 50px;
+    border-radius: 6px;
+    color: black;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .main-input a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .span {
+    color: #888888;
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: none;
+  }
+  .main-span a {
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    text-decoration: underline;
+    color: #b8b8b8;
+    font-weight: 200;
   }
 }
-​ .main-input {
-  display: inline-block;
-  margin-top: 52vh;
-  text-transform: uppercase;
-}
-.service {
-  width: 425px;
-  height: 50px;
-  border-radius: 6px;
-  color: #b8b8b8;
-  background-color: rgba(245, 222, 179, 0.057);
-  padding: 0px 26px;
-  margin: 20px 10px;
-  border: 1px solid white;
-  font-size: 12px;
-}
-.main-button {
-  width: 186px;
-  height: 50px;
-  border-radius: 6px;
-  color: black;
-  background-color: #ffffff;
-  font-size: 18px;
-  font-weight: bold;
-}
-.main-input a {
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-}
-.span {
-  color: #888888;
-  font-family: Helvetica, sans-serif;
-  font-size: 10px;
-  text-transform: none;
-}
-.main-span a {
-  font-family: Helvetica, sans-serif;
-  font-size: 10px;
-  text-decoration: underline;
-  color: #b8b8b8;
-  font-weight: 200;
-}
-​
-/* second section*/
 .second-section {
   height: 100vh;
   width: 100%;
-  background-image: url(./img/22.jpg);
+  background-image: url(https://api.starlink.com/public-files/Marketing_LandingHighspeed_Mobile.jpg);
   background-position: center;
   background-size: cover;
   .box2 {
@@ -114,8 +113,7 @@ p {
 .button:hover a {
   color: black;
 }
-/* third section*/
-​ .third-section {
+.third-section {
   display: flex;
   align-items: center;
   height: 100vh;
@@ -135,7 +133,7 @@ p {
   .img-div {
     width: 50%;
     height: 100%;
-    background-image: url(./img/3.jpg);
+    background-image: url("https://api.starlink.com/public-files/Marketing_LandingPlugin.jpg");
     background-position: center;
     background-size: cover;
   }
@@ -150,7 +148,6 @@ p {
     height: 55px;
   }
 }
-/* fourth section*/
 .fourth-section {
   display: flex;
   justify-content: center;
@@ -166,16 +163,15 @@ p {
   .img-div4 {
     width: 50%;
     height: 100%;
-    background-image: url(./img/4.jpg);
+    background-image: url(https://api.starlink.com/public-files/Marketing_LandingRural.jpg);
     background-position: center;
     background-size: cover;
   }
 }
-/* fifth section*/
 .fifth-section {
   height: 100vh;
   width: 100%;
-  background-image: url(./img/5\ Desktop.jpg);
+  background-image: url(https://api.starlink.com/public-files/Marketing_LandingPreserving_Mobile.jpg);
   background-position: center;
   background-size: cover;
   .box5 {
@@ -184,8 +180,7 @@ p {
     width: 42%;
   }
 }
-/* sixth section*/
-​ .sixth-section {
+.sixth-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,11 +196,10 @@ p {
 .img-div6 {
   width: 50%;
   height: 100%;
-  background-image: url(./img/6.jpg);
+  background-image: url(https://api.starlink.com/public-files/Marketing_LandingKeepingClean.jpg);
   background-position: center;
   background-size: cover;
 }
-/* seventh section*/
 .seventh-section {
   display: flex;
   justify-content: center;
@@ -222,11 +216,10 @@ p {
 .img-div7 {
   width: 50%;
   height: 100%;
-  background-image: url(./img/7.jpg);
+  background-image: url(../images/img-starlink/7.jpg);
   background-position: center;
   background-size: cover;
 }
-/* last section*/
 .last-section {
   display: flex;
   flex-direction: column;
@@ -244,8 +237,26 @@ p {
     margin-bottom: 40px;
   }
 }
-
-/* media query*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  padding: 0 10%;
+  a {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+.footer-ver {
+  border-left: 1px solid #757575;
+  height: 8px;
+  display: inline-block;
+}
 @media screen and (max-width: 1200px) {
   .starlink-main {
     .img-div {
@@ -279,40 +290,37 @@ p {
       height: 50px;
     }
   }
+  .third-section,
+  .seventh-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .fourth-section,
+  .sixth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-height: 110vh;
+    width: 100%;
+  }
+  .img-div {
+    width: 100%;
+    height: 50vh;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: padding 20px;
+  }
 }
-.third-section,
-.seventh-section {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100%;
-}
-.fourth-section,
-.sixth-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  max-height: 110vh;
-  width: 100%;
-}
-.img-div {
-  width: 100%;
-  height: 50vh;
-}
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: padding 20px;
-}
-
-/* moblie version*/
-
-@media (max-width: 700px) {
+@media screen and (min-width: 500px) and (max-width: 700px) {
   .starlink-main {
     .box {
       width: 100%;
@@ -329,10 +337,10 @@ footer {
       line-height: 40px;
     }
     .second-section {
-      background-image: url(./img/2.jpg);
+      background-image: url(../images/img-starlink/2.jpg);
     }
     .fifth-section {
-      background-image: url(./img/5.jpg);
+      background-image: url(../images/img-starlink/5.jpg);
     }
     .first-section {
       font-size: 15px;
