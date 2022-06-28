@@ -5,6 +5,7 @@
   color: white;
   font-size: 16px;
   line-height: 22px;
+  {
   h2{
     padding: 40px 0;
     font-size: 40px;
@@ -17,7 +18,7 @@
   .first-section{
     height: 100vh;
     width: 100%;
-    background-image: url(../images/img-starlink/main.jpg);
+    background-image: url(./img/main.jpg);
     background-position: center;
     background-repeat: no-repeat;
     h2{
@@ -33,7 +34,6 @@
     display: inline-block;
     margin-top: 52vh;
     text-transform: uppercase;
-​
   }
 .service{
     width: 425px;
@@ -81,7 +81,7 @@
 .second-section{
   height: 100vh;
   width: 100%;
-  background-image: url(../images/img-starlink/22.jpg);
+  background-image: url(./img/22.jpg);
   background-position: center;
   background-size: cover;
   .box2{
@@ -139,7 +139,7 @@
   .img-div{
     width: 50%;
     height: 100%;
-    background-image: url(../images/img-starlink/3.jpg);
+    background-image: url(./img/3.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -170,7 +170,7 @@
 .img-div4{
     width: 50%;
     height: 100%;
-    background-image: url(../images/img-starlink/4.jpg);
+    background-image: url(./img/4.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -179,7 +179,7 @@
 .fifth-section{
   height: 100vh;
   width: 100%;
-  background-image: url(../images/img-starlink/5\ Desktop.jpg);
+  background-image: url(./img/5\ Desktop.jpg);
   background-position: center;
   background-size: cover;   
 ​
@@ -208,7 +208,7 @@
 .img-div6{
   width: 50%;
   height: 100%;
-  background-image: url(../images/img-starlink/6.jpg);
+  background-image: url(./img/6.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -230,7 +230,7 @@
 .img-div7{
   width: 50%;
   height: 100%;
-  background-image: url(../images/img-starlink/7.jpg);
+  background-image: url(./img/7.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -252,28 +252,8 @@
     margin-bottom: 40px;
   }
 }
-/* footer */
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-    width: 100%;
-    background-color: black;
-    padding: 0 10%;
-    a{
-      color: #ffffff;
-      font-size: 12px;
-      font-weight: bold;
-      text-decoration: none;
-  } 
 }
-.footer-ver{
-  border-left: 1px solid #757575;
-  height: 8px;
-  display: inline-block;
-}
-​
+
 /* media query*/
 @media screen and (max-width: 1200px) {
   .starlink-main{
@@ -356,10 +336,10 @@ footer{
       line-height: 40px;
     }
     .second-section{
-      background-image: url(../images/img-starlink/2.jpg);
+      background-image: url(./img/2.jpg);
     }
     .fifth-section{
-      background-image: url(../images/img-starlink/5.jpg);
+      background-image: url(./img/5.jpg);
     }
     .first-section{
       font-size: 15px;
