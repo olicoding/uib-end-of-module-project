@@ -1,4 +1,4 @@
-# UIB module – final project
+# UIB end of module project
 
 > Webpage presentation link: https://oliveiradci.github.io/UIB-end-of-module-project-presentation/
 
